@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Restaurant</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: orange;
+        }
+
+        .banner {
+            background-color: orange;
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .banner h1 {
+            font-size: 50px;
+            color: white;
+        }
+
+        .banner p {
+            font-size: 22px;
+            color: white;
+        }
+
+        .banner button {
+            background-color: white;
+            color: orange;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+
+        /* Portfolio Section */
+
+        .portfolio {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        .portfolio h2 {
+            font-size: 40px;
+            color: #333;
+        }
+
+        .portfolio-intro {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .portfolio-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .portfolio-card {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .food-image {
+            background-color: orange;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+            border-radius: 10px;
+        }
+
+        .portfolio-card h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .portfolio-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="banner">
+
+        <h1>Welcome to Our Restaurant</h1>
+
+        <p>Delicious food made with love!</p>
+
+        <button>View Menu</button>
+
+    </div>
+
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio">
+
+        <h2>Our Restaurant</h2>
+
+        <p class="portfolio-intro">
+            Take a look at our delicious food and beautiful restaurant.
+        </p>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-card">
+
+                <div class="food-image">🍔</div>
+
+                <h3>Delicious Food</h3>
+
+                <p>
+                    We serve fresh and delicious meals made with high-quality ingredients.
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-card">
+
+                <div class="food-image">🍕</div>
+
+                <h3>Fresh Ingredients</h3>
+
+                <p>
+                    Our chefs use fresh ingredients to create tasty meals for our customers.
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-card">
+
+                <div class="food-image">🍰</div>
+
+                <h3>Sweet Desserts</h3>
+
+                <p>
+                    Finish your meal with one of our delicious homemade desserts.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
