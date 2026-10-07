@@ -1,0 +1,55 @@
+        .portfolio {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+
+        .portfolio h2 {
+            font-size: 40px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-intro {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .portfolio-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .portfolio-card {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .food-image {
+            background-color: orange;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+            border-radius: 10px;
+        }
+
+        .portfolio-card h3 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .portfolio-card p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
